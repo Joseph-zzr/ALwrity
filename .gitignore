@@ -1,0 +1,210 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite*
+
+# Environment
+.env
+.env.*
+
+# User data
+backend/lib/workspace/
+backend/lib/workspace/users/
+backend/logs/
+backend/linkedin_images/
+backend/test/
+backend/.onboarding_progress_user*
+backend/.onboarding_*.json
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env*
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs build
+docs-site/site/
+
+# Dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# Python cache files
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.gitignore
+.pytest*
+# Cache files
+.cache/
+*/cache/
+**/cache/
+*.cache
+
+# MkDocs site directory
+docs-site/site/
+
+venv_new
+venv
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+backend/alwrity.db
+backend/content_cache.db
+backend/outline_cache.db
+backend/research_cache.db
+
+# Google OAuth credentials
+gsc_credentials.json
+**/gsc_credentials.json
+
+.cursor
+
+# Onboarding progress files
+.onboarding_progress.json
+backend/.onboarding_progress.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js (for frontend)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+build/
+dist/
+*.egg-info/
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+.cursorignore
+
+gsc_credentials_template.json
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Credentials and secrets
+gsc_credentials.json
+*.pem
+*.key
+*.crt
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Documentation build
+docs/_build/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Cache directories
+.pytest_cache
+
+# Documentation cache
+docs/__pycache__/
+# Onboarding JSON files (CRITICAL: Should use database instead)
+.onboarding_progress.json
+*_onboarding_progress.json
+backend/.onboarding_progress*.json
